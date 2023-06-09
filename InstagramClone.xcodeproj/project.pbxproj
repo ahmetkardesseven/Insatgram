@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3A472F2A3200BB00D6A832 /* AnaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A472E2A3200BB00D6A832 /* AnaController.swift */; };
+		BE3A47312A32028200D6A832 /* AnaPaylasimCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A47302A32028200D6A832 /* AnaPaylasimCell.swift */; };
+		BE3A47332A3318EB00D6A832 /* KullaniciAraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A47322A3318EB00D6A832 /* KullaniciAraController.swift */; };
+		BE3A47362A336A5D00D6A832 /* KullaniciAraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A47352A336A5D00D6A832 /* KullaniciAraCell.swift */; };
 		BEFEAC362A2B564400492A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC352A2B564400492A08 /* AppDelegate.swift */; };
 		BEFEAC382A2B564400492A08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC372A2B564400492A08 /* SceneDelegate.swift */; };
-		BEFEAC3A2A2B564400492A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC392A2B564400492A08 /* ViewController.swift */; };
+		BEFEAC3A2A2B564400492A08 /* KayitOlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC392A2B564400492A08 /* KayitOlController.swift */; };
 		BEFEAC3D2A2B564400492A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAC3B2A2B564400492A08 /* Main.storyboard */; };
 		BEFEAC3F2A2B564500492A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAC3E2A2B564500492A08 /* Assets.xcassets */; };
 		BEFEAC422A2B564500492A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAC402A2B564500492A08 /* LaunchScreen.storyboard */; };
+		BEFEAC4A2A2B667900492A08 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC492A2B667900492A08 /* Extension.swift */; };
+		BEFEAC4C2A2B710D00492A08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEFEAC4B2A2B710D00492A08 /* GoogleService-Info.plist */; };
+		BEFEAC562A2BA73A00492A08 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = BEFEAC552A2BA73A00492A08 /* JGProgressHUD */; };
+		BEFEAC592A2BA8AA00492A08 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BEFEAC582A2BA8AA00492A08 /* FirebaseAuth */; };
+		BEFEAC5B2A2BA8AA00492A08 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BEFEAC5A2A2BA8AA00492A08 /* FirebaseDatabase */; };
+		BEFEAC5D2A2BA8AA00492A08 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BEFEAC5C2A2BA8AA00492A08 /* FirebaseFirestore */; };
+		BEFEAC5F2A2BA8AA00492A08 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BEFEAC5E2A2BA8AA00492A08 /* FirebaseStorage */; };
+		BEFEAC622A2BA8E500492A08 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = BEFEAC612A2BA8E500492A08 /* SDWebImage */; };
+		BEFEAC642A2BDECC00492A08 /* AnaTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC632A2BDECC00492A08 /* AnaTabBarController.swift */; };
+		BEFEAC662A2BDFEC00492A08 /* KullaniciProfiliController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC652A2BDFEC00492A08 /* KullaniciProfiliController.swift */; };
+		BEFEAC692A2BF2AE00492A08 /* KullaniciProfilHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC682A2BF2AE00492A08 /* KullaniciProfilHeader.swift */; };
+		BEFEAC6C2A2BFC0100492A08 /* Kullanici.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC6B2A2BFC0100492A08 /* Kullanici.swift */; };
+		BEFEAC6F2A2C647800492A08 /* OturumAcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC6E2A2C647800492A08 /* OturumAcController.swift */; };
+		BEFEAC722A2E47B300492A08 /* FotografSeciciController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC712A2E47B300492A08 /* FotografSeciciController.swift */; };
+		BEFEAC742A2F280700492A08 /* FotografSeciciCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC732A2F280700492A08 /* FotografSeciciCell.swift */; };
+		BEFEAC762A2F6CAA00492A08 /* FotografSeciciHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC752A2F6CAA00492A08 /* FotografSeciciHeader.swift */; };
+		BEFEAC782A2F845800492A08 /* FotografPaylasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC772A2F845800492A08 /* FotografPaylasController.swift */; };
+		BEFEAC7A2A304BF100492A08 /* Paylasim.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC792A304BF100492A08 /* Paylasim.swift */; };
+		BEFEAC7C2A30526800492A08 /* KullaniciPaylasimFotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFEAC7B2A30526800492A08 /* KullaniciPaylasimFotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE3A472E2A3200BB00D6A832 /* AnaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaController.swift; sourceTree = "<group>"; };
+		BE3A47302A32028200D6A832 /* AnaPaylasimCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaPaylasimCell.swift; sourceTree = "<group>"; };
+		BE3A47322A3318EB00D6A832 /* KullaniciAraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciAraController.swift; sourceTree = "<group>"; };
+		BE3A47352A336A5D00D6A832 /* KullaniciAraCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciAraCell.swift; sourceTree = "<group>"; };
 		BEFEAC322A2B564400492A08 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFEAC352A2B564400492A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEFEAC372A2B564400492A08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEFEAC392A2B564400492A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEFEAC392A2B564400492A08 /* KayitOlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitOlController.swift; sourceTree = "<group>"; };
 		BEFEAC3C2A2B564400492A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEFEAC3E2A2B564500492A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEFEAC412A2B564500492A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEFEAC432A2B564500492A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFEAC492A2B667900492A08 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		BEFEAC4B2A2B710D00492A08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEFEAC632A2BDECC00492A08 /* AnaTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaTabBarController.swift; sourceTree = "<group>"; };
+		BEFEAC652A2BDFEC00492A08 /* KullaniciProfiliController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciProfiliController.swift; sourceTree = "<group>"; };
+		BEFEAC682A2BF2AE00492A08 /* KullaniciProfilHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciProfilHeader.swift; sourceTree = "<group>"; };
+		BEFEAC6B2A2BFC0100492A08 /* Kullanici.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kullanici.swift; sourceTree = "<group>"; };
+		BEFEAC6E2A2C647800492A08 /* OturumAcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OturumAcController.swift; sourceTree = "<group>"; };
+		BEFEAC712A2E47B300492A08 /* FotografSeciciController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSeciciController.swift; sourceTree = "<group>"; };
+		BEFEAC732A2F280700492A08 /* FotografSeciciCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSeciciCell.swift; sourceTree = "<group>"; };
+		BEFEAC752A2F6CAA00492A08 /* FotografSeciciHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografSeciciHeader.swift; sourceTree = "<group>"; };
+		BEFEAC772A2F845800492A08 /* FotografPaylasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotografPaylasController.swift; sourceTree = "<group>"; };
+		BEFEAC792A304BF100492A08 /* Paylasim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paylasim.swift; sourceTree = "<group>"; };
+		BEFEAC7B2A30526800492A08 /* KullaniciPaylasimFotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullaniciPaylasimFotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +71,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFEAC622A2BA8E500492A08 /* SDWebImage in Frameworks */,
+				BEFEAC5B2A2BA8AA00492A08 /* FirebaseDatabase in Frameworks */,
+				BEFEAC5D2A2BA8AA00492A08 /* FirebaseFirestore in Frameworks */,
+				BEFEAC562A2BA73A00492A08 /* JGProgressHUD in Frameworks */,
+				BEFEAC5F2A2BA8AA00492A08 /* FirebaseStorage in Frameworks */,
+				BEFEAC592A2BA8AA00492A08 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE3A472D2A32009D00D6A832 /* AnaGorunum */ = {
+			isa = PBXGroup;
+			children = (
+				BE3A472E2A3200BB00D6A832 /* AnaController.swift */,
+				BE3A47302A32028200D6A832 /* AnaPaylasimCell.swift */,
+			);
+			path = AnaGorunum;
+			sourceTree = "<group>";
+		};
+		BE3A47342A33192D00D6A832 /* Ara */ = {
+			isa = PBXGroup;
+			children = (
+				BE3A47322A3318EB00D6A832 /* KullaniciAraController.swift */,
+				BE3A47352A336A5D00D6A832 /* KullaniciAraCell.swift */,
+			);
+			path = Ara;
+			sourceTree = "<group>";
+		};
 		BEFEAC292A2B564400492A08 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +120,62 @@
 		BEFEAC342A2B564400492A08 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
-				BEFEAC352A2B564400492A08 /* AppDelegate.swift */,
-				BEFEAC372A2B564400492A08 /* SceneDelegate.swift */,
-				BEFEAC392A2B564400492A08 /* ViewController.swift */,
+				BE3A47342A33192D00D6A832 /* Ara */,
+				BE3A472D2A32009D00D6A832 /* AnaGorunum */,
+				BEFEAC702A2E479500492A08 /* FotografEkle */,
+				BEFEAC6D2A2C646000492A08 /* OturumAc */,
+				BEFEAC6A2A2BFBF200492A08 /* Model */,
+				BEFEAC672A2BF27A00492A08 /* KullaniciProfil */,
+				BEFEAC392A2B564400492A08 /* KayitOlController.swift */,
+				BEFEAC632A2BDECC00492A08 /* AnaTabBarController.swift */,
 				BEFEAC3B2A2B564400492A08 /* Main.storyboard */,
 				BEFEAC3E2A2B564500492A08 /* Assets.xcassets */,
 				BEFEAC402A2B564500492A08 /* LaunchScreen.storyboard */,
 				BEFEAC432A2B564500492A08 /* Info.plist */,
+				BEFEAC372A2B564400492A08 /* SceneDelegate.swift */,
+				BEFEAC352A2B564400492A08 /* AppDelegate.swift */,
+				BEFEAC492A2B667900492A08 /* Extension.swift */,
+				BEFEAC4B2A2B710D00492A08 /* GoogleService-Info.plist */,
 			);
 			path = InstagramClone;
+			sourceTree = "<group>";
+		};
+		BEFEAC672A2BF27A00492A08 /* KullaniciProfil */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAC652A2BDFEC00492A08 /* KullaniciProfiliController.swift */,
+				BEFEAC682A2BF2AE00492A08 /* KullaniciProfilHeader.swift */,
+				BEFEAC7B2A30526800492A08 /* KullaniciPaylasimFotoCell.swift */,
+			);
+			path = KullaniciProfil;
+			sourceTree = "<group>";
+		};
+		BEFEAC6A2A2BFBF200492A08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAC6B2A2BFC0100492A08 /* Kullanici.swift */,
+				BEFEAC792A304BF100492A08 /* Paylasim.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEFEAC6D2A2C646000492A08 /* OturumAc */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAC6E2A2C647800492A08 /* OturumAcController.swift */,
+			);
+			path = OturumAc;
+			sourceTree = "<group>";
+		};
+		BEFEAC702A2E479500492A08 /* FotografEkle */ = {
+			isa = PBXGroup;
+			children = (
+				BEFEAC712A2E47B300492A08 /* FotografSeciciController.swift */,
+				BEFEAC732A2F280700492A08 /* FotografSeciciCell.swift */,
+				BEFEAC752A2F6CAA00492A08 /* FotografSeciciHeader.swift */,
+				BEFEAC772A2F845800492A08 /* FotografPaylasController.swift */,
+			);
+			path = FotografEkle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,14 @@
 			dependencies = (
 			);
 			name = InstagramClone;
+			packageProductDependencies = (
+				BEFEAC552A2BA73A00492A08 /* JGProgressHUD */,
+				BEFEAC582A2BA8AA00492A08 /* FirebaseAuth */,
+				BEFEAC5A2A2BA8AA00492A08 /* FirebaseDatabase */,
+				BEFEAC5C2A2BA8AA00492A08 /* FirebaseFirestore */,
+				BEFEAC5E2A2BA8AA00492A08 /* FirebaseStorage */,
+				BEFEAC612A2BA8E500492A08 /* SDWebImage */,
+			);
 			productName = InstagramClone;
 			productReference = BEFEAC322A2B564400492A08 /* InstagramClone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +230,11 @@
 				Base,
 			);
 			mainGroup = BEFEAC292A2B564400492A08;
+			packageReferences = (
+				BEFEAC542A2BA73A00492A08 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				BEFEAC572A2BA8AA00492A08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				BEFEAC602A2BA8E500492A08 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = BEFEAC332A2B564400492A08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEFEAC422A2B564500492A08 /* LaunchScreen.storyboard in Resources */,
+				BEFEAC4C2A2B710D00492A08 /* GoogleService-Info.plist in Resources */,
 				BEFEAC3F2A2B564500492A08 /* Assets.xcassets in Resources */,
 				BEFEAC3D2A2B564400492A08 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +263,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEFEAC3A2A2B564400492A08 /* ViewController.swift in Sources */,
+				BEFEAC742A2F280700492A08 /* FotografSeciciCell.swift in Sources */,
+				BEFEAC6F2A2C647800492A08 /* OturumAcController.swift in Sources */,
+				BE3A472F2A3200BB00D6A832 /* AnaController.swift in Sources */,
+				BEFEAC722A2E47B300492A08 /* FotografSeciciController.swift in Sources */,
+				BEFEAC3A2A2B564400492A08 /* KayitOlController.swift in Sources */,
+				BEFEAC692A2BF2AE00492A08 /* KullaniciProfilHeader.swift in Sources */,
+				BEFEAC642A2BDECC00492A08 /* AnaTabBarController.swift in Sources */,
+				BEFEAC662A2BDFEC00492A08 /* KullaniciProfiliController.swift in Sources */,
 				BEFEAC362A2B564400492A08 /* AppDelegate.swift in Sources */,
+				BE3A47362A336A5D00D6A832 /* KullaniciAraCell.swift in Sources */,
+				BE3A47332A3318EB00D6A832 /* KullaniciAraController.swift in Sources */,
 				BEFEAC382A2B564400492A08 /* SceneDelegate.swift in Sources */,
+				BEFEAC6C2A2BFC0100492A08 /* Kullanici.swift in Sources */,
+				BEFEAC782A2F845800492A08 /* FotografPaylasController.swift in Sources */,
+				BEFEAC7C2A30526800492A08 /* KullaniciPaylasimFotoCell.swift in Sources */,
+				BEFEAC7A2A304BF100492A08 /* Paylasim.swift in Sources */,
+				BEFEAC762A2F6CAA00492A08 /* FotografSeciciHeader.swift in Sources */,
+				BEFEAC4A2A2B667900492A08 /* Extension.swift in Sources */,
+				BE3A47312A32028200D6A832 /* AnaPaylasimCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +497,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEFEAC542A2BA73A00492A08 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		BEFEAC572A2BA8AA00492A08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		BEFEAC602A2BA8E500492A08 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEFEAC552A2BA73A00492A08 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFEAC542A2BA73A00492A08 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		BEFEAC582A2BA8AA00492A08 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFEAC572A2BA8AA00492A08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BEFEAC5A2A2BA8AA00492A08 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFEAC572A2BA8AA00492A08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BEFEAC5C2A2BA8AA00492A08 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFEAC572A2BA8AA00492A08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BEFEAC5E2A2BA8AA00492A08 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFEAC572A2BA8AA00492A08 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		BEFEAC612A2BA8E500492A08 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEFEAC602A2BA8E500492A08 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEFEAC2A2A2B564400492A08 /* Project object */;
 }
